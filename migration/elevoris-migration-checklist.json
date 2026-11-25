@@ -1,0 +1,1127 @@
+{
+  "source": "https://www.elevoris.com/",
+  "auditDate": "2026-11-13",
+  "counts": {
+    "categories": 20,
+    "emptyCategories": 1,
+    "accessibleCourseLinks": 101,
+    "completeCourseRecords": 72,
+    "partialCourseRecords": 29,
+    "verifiedSchedules": 950
+  },
+  "limitations": [
+    "The source sitemap URL returns HTTP 404.",
+    "Client-side pagination and the public Wix cloud-data endpoint returned “Origin is disallowed” in this environment. The archive therefore contains every server-rendered course record accessible from all 20 category pages, but records available only after client-side pagination could not be retrieved.",
+    "No Terms and Conditions or privacy/legal page was linked from the original navigation or footer, and all common legal-page paths tested returned HTTP 404."
+  ],
+  "termsAndConditions": {
+    "status": "unavailable-from-original-source",
+    "testedPaths": [
+      "/terms-and-conditions",
+      "/terms-conditions",
+      "/terms",
+      "/conditions",
+      "/legal",
+      "/terms-of-use"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Banking, Fintech & Digital Finance",
+      "slug": "banking-fintech-digital-finance",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/banking%2C-fintech-%26-digital-finance",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Business Analytics & Artificial Intelligence (AI)",
+      "slug": "business-analytics-artificial-intelligence-ai",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/business-analytics-%26-artificial-intelligence-(ai)",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Communication & Presentation Excellence",
+      "slug": "communication-presentation-excellence",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/communication-%26-presentation-excellence",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Diplomacy & Public Affairs",
+      "slug": "diplomacy-public-affairs",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/diplomacy-%26-public-affairs",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Enterprise Risk, Credit & Banking Regulation",
+      "slug": "enterprise-risk-credit-banking-regulation",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/enterprise-risk%2C-credit-%26-banking-regulation",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Executive Leadership & Management",
+      "slug": "executive-leadership-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/executive-leadership-%26-management",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Forensic Investigations, Audit & Anti-Financial Crime",
+      "slug": "forensic-investigations-audit-anti-financial-crime",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/forensic-investigations%2C-audit-%26-anti-financial-crime",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Health, Safety & Environment (HSE) Management",
+      "slug": "health-safety-environment-hse-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/health%2C-safety-%26-environment-(hse)-management",
+      "courseCountAccessible": 0,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Healthcare Administration & Management",
+      "slug": "healthcare-administration-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/healthcare-administration-%26-management",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "HR & People Management",
+      "slug": "hr-people-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/hr-%26-people-management",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Joint Ventures & Strategic Partnerships",
+      "slug": "joint-ventures-strategic-partnerships",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/joint-ventures-%26-strategic-partnerships",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Office & Administrative Management",
+      "slug": "office-administrative-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/office-%26-administrative-management",
+      "courseCountAccessible": 6,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Oil, Gas & Energy Management",
+      "slug": "oil-gas-energy-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/oil%2C-gas-%26-energy-management",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Ports, Maritime & Shipping Management",
+      "slug": "ports-maritime-shipping-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/ports%2C-maritime-%26-shipping-management",
+      "courseCountAccessible": 6,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Procurement, Contracts & Supply Chain Management",
+      "slug": "procurement-contracts-supply-chain-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/procurement%2C-contracts-%26-supply-chain-management",
+      "courseCountAccessible": 6,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Project Finance & Real Estate",
+      "slug": "project-finance-real-estate",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/project-finance-%26-real-estate",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Project Management Excellence",
+      "slug": "project-management-excellence",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/project-management-excellence",
+      "courseCountAccessible": 7,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Strategic Finance & Budgeting",
+      "slug": "strategic-finance-budgeting",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/strategic-finance-%26-budgeting",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Tax, Pension & Retirement Management",
+      "slug": "tax-pension-retirement-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/tax%2C-pension-%26-retirement-management",
+      "courseCountAccessible": 5,
+      "status": "successfully-migrated"
+    },
+    {
+      "name": "Treasury, Investment & Asset Management",
+      "slug": "treasury-investment-asset-management",
+      "sourceUrl": "https://www.elevoris.com/listhome-1/treasury%2C-investment-%26-asset-management",
+      "courseCountAccessible": 6,
+      "status": "successfully-migrated"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Advanced Banking Operations & Governance",
+      "slug": "advanced-banking-operations-governance",
+      "category": "Banking, Fintech & Digital Finance",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-banking-operations-%26-governance",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Compensation, Benefits & Total Rewards Strategy",
+      "slug": "advanced-compensation-benefits-total-rewards-strategy",
+      "category": "HR & People Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-compensation%2C-benefits-%26-total-rewards-strategy",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Complex Project Leadership Program",
+      "slug": "advanced-complex-project-leadership-program",
+      "category": "Project Management Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-complex-project-leadership-program",
+      "scheduleCount": 7,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Advanced Complex Project Leadership Programme",
+      "slug": "advanced-complex-project-leadership-programme",
+      "category": "Project Management Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-complex-project-leadership-programme",
+      "scheduleCount": 2,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Financial Budgeting & Forecasting Mastery",
+      "slug": "advanced-financial-budgeting-forecasting-mastery",
+      "category": "Strategic Finance & Budgeting",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-financial-budgeting-%26-forecasting-mastery",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Advanced Fraud Detection & Prevention Mastery",
+      "slug": "advanced-fraud-detection-prevention-mastery",
+      "category": "Forensic Investigations, Audit & Anti-Financial Crime",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-fraud-detection-%26-prevention-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Indirect Tax & VAT Management",
+      "slug": "advanced-indirect-tax-vat-management",
+      "category": "Tax, Pension & Retirement Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-indirect-tax-%26-vat-management",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Advanced Investment Strategy & Portfolio Management",
+      "slug": "advanced-investment-strategy-portfolio-management",
+      "category": "Treasury, Investment & Asset Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-investment-strategy-%26-portfolio-management",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Advanced ISPS Code Compliance & Maritime Security Mastery",
+      "slug": "advanced-isps-code-compliance-maritime-security-mastery",
+      "category": "Ports, Maritime & Shipping Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-isps-code-compliance-%26-maritime-security-mastery",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Advanced Joint Venture Finance & Partnership Strategy",
+      "slug": "advanced-joint-venture-finance-partnership-strategy",
+      "category": "Joint Ventures & Strategic Partnerships",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-joint-venture-finance-%26-partnership-strategy",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Oil & Gas Port Operations and Shipping Management",
+      "slug": "advanced-oil-gas-port-operations-and-shipping-management",
+      "category": "Ports, Maritime & Shipping Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-oil-%26-gas-port-operations-and-shipping-management",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Advanced Oil and Chemical Tanker Cargo Operations & Safety Mastery",
+      "slug": "advanced-oil-and-chemical-tanker-cargo-operations-safety-mastery",
+      "category": "Ports, Maritime & Shipping Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-oil-and-chemical-tanker-cargo-operations-%26-safety-mastery",
+      "scheduleCount": 3,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Advanced People Management and Transformational Leadership",
+      "slug": "advanced-people-management-and-transformational-leadership",
+      "category": "Executive Leadership & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-people-management-and-transformational-leadership",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Project Finance Structuring",
+      "slug": "advanced-project-finance-structuring",
+      "category": "Project Finance & Real Estate",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-project-finance-structuring",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Advanced Risk Management for Offshore and Marine Projects",
+      "slug": "advanced-risk-management-for-offshore-and-marine-projects",
+      "category": "Project Management Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-risk-management-for-offshore-and-marine-projects",
+      "scheduleCount": 9,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Road Infrastructure Planning & Design Masterclass",
+      "slug": "advanced-road-infrastructure-planning-design-masterclass",
+      "category": "Project Management Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-road-infrastructure-planning-%26-design-masterclass",
+      "scheduleCount": 8,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Strategic HR Management & Talent Leadership Mastery",
+      "slug": "advanced-strategic-hr-management-talent-leadership-mastery",
+      "category": "HR & People Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-strategic-hr-management-%26-talent-leadership-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Strategic Leadership & Management Mastery",
+      "slug": "advanced-strategic-leadership-management-mastery",
+      "category": "Executive Leadership & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-strategic-leadership-%26-management-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Advanced Treasury & Cash Management Mastery",
+      "slug": "advanced-treasury-cash-management-mastery",
+      "category": "Treasury, Investment & Asset Management",
+      "sourceUrl": "https://www.elevoris.com/latest/advanced-treasury-%26-cash-management-mastery",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Agentic AI for Business Operations Masterclass",
+      "slug": "agentic-ai-for-business-operations-masterclass",
+      "category": "Business Analytics & Artificial Intelligence (AI)",
+      "sourceUrl": "https://www.elevoris.com/latest/agentic-ai-for-business-operations-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "AI & Data Analytics for Supply Chain Decision-Making",
+      "slug": "ai-data-analytics-for-supply-chain-decision-making",
+      "category": "Procurement, Contracts & Supply Chain Management",
+      "sourceUrl": "https://www.elevoris.com/latest/ai-%26-data-analytics-for-supply-chain-decision-making",
+      "scheduleCount": 2,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "AI-Driven Decision-Making Masterclass",
+      "slug": "ai-driven-decision-making-masterclass",
+      "category": "Business Analytics & Artificial Intelligence (AI)",
+      "sourceUrl": "https://www.elevoris.com/latest/ai-driven-decision-making-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "AI-Driven Risk Analytics and Decision Intelligence",
+      "slug": "ai-driven-risk-analytics-and-decision-intelligence",
+      "category": "Business Analytics & Artificial Intelligence (AI)",
+      "sourceUrl": "https://www.elevoris.com/latest/ai-driven-risk-analytics-and-decision-intelligence",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "AI Ethics, Governance & Responsible AI",
+      "slug": "ai-ethics-governance-responsible-ai",
+      "category": "Business Analytics & Artificial Intelligence (AI)",
+      "sourceUrl": "https://www.elevoris.com/latest/ai-ethics%2C-governance-%26-responsible-ai",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Anti-Money Laundering & Compliance Mastery",
+      "slug": "anti-money-laundering-compliance-mastery",
+      "category": "Forensic Investigations, Audit & Anti-Financial Crime",
+      "sourceUrl": "https://www.elevoris.com/latest/anti-money-laundering-%26-compliance-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Artificial Intelligence in Land Surveying and Urban Planning",
+      "slug": "artificial-intelligence-in-land-surveying-and-urban-planning",
+      "category": "Project Management Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/artificial-intelligence-in-land-surveying-and-urban-planning",
+      "scheduleCount": 9,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Artificial Intelligence in Project Management Mastery",
+      "slug": "artificial-intelligence-in-project-management-mastery",
+      "category": "Project Management Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/artificial-intelligence-in-project-management-mastery",
+      "scheduleCount": 8,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Banking Regulation & Compliance Mastery",
+      "slug": "banking-regulation-compliance-mastery",
+      "category": "Enterprise Risk, Credit & Banking Regulation",
+      "sourceUrl": "https://www.elevoris.com/latest/banking-regulation-%26-compliance-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Blockchain Technology & Digital Assets Management",
+      "slug": "blockchain-technology-digital-assets-management",
+      "category": "Banking, Fintech & Digital Finance",
+      "sourceUrl": "https://www.elevoris.com/latest/blockchain-technology-%26-digital-assets-management",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Budgeting, Cost Control & Reduction Techniques",
+      "slug": "budgeting-cost-control-reduction-techniques",
+      "category": "Strategic Finance & Budgeting",
+      "sourceUrl": "https://www.elevoris.com/latest/budgeting%2C-cost-control-%26-reduction-techniques",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Building and Leading High-Performance Project Management Offices",
+      "slug": "building-and-leading-high-performance-project-management-offices",
+      "category": "Project Management Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/building-and-leading-high-performance-project-management-offices",
+      "scheduleCount": 7,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Business Analytics & Artificial Intelligence Mastery",
+      "slug": "business-analytics-artificial-intelligence-mastery",
+      "category": "Business Analytics & Artificial Intelligence (AI)",
+      "sourceUrl": "https://www.elevoris.com/latest/business-analytics-%26-artificial-intelligence-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Business Writing & Professional Correspondence Masterclass",
+      "slug": "business-writing-professional-correspondence-masterclass",
+      "category": "Communication & Presentation Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/business-writing-%26-professional-correspondence-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Corporate Financial Planning & Analysis Mastery",
+      "slug": "corporate-financial-planning-analysis-mastery",
+      "category": "Strategic Finance & Budgeting",
+      "sourceUrl": "https://www.elevoris.com/latest/corporate-financial-planning-%26-analysis-mastery",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Corporate Fraud Risk Management Strategy",
+      "slug": "corporate-fraud-risk-management-strategy",
+      "category": "Forensic Investigations, Audit & Anti-Financial Crime",
+      "sourceUrl": "https://www.elevoris.com/latest/corporate-fraud-risk-management-strategy",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Corporate Tax Governance & Revenue Assurance Strategy",
+      "slug": "corporate-tax-governance-revenue-assurance-strategy",
+      "category": "Tax, Pension & Retirement Management",
+      "sourceUrl": "https://www.elevoris.com/latest/corporate-tax-governance-%26-revenue-assurance-strategy",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Credit Risk Analysis & Management Mastery",
+      "slug": "credit-risk-analysis-management-mastery",
+      "category": "Enterprise Risk, Credit & Banking Regulation",
+      "sourceUrl": "https://www.elevoris.com/latest/credit-risk-analysis-%26-management-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Crisis Diplomacy & Emergency Communications Masterclass",
+      "slug": "crisis-diplomacy-emergency-communications-masterclass",
+      "category": "Diplomacy & Public Affairs",
+      "sourceUrl": "https://www.elevoris.com/latest/crisis-diplomacy-%26-emergency-communications-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Data Analytics & Insights in Healthcare Masterclass",
+      "slug": "data-analytics-insights-in-healthcare-masterclass",
+      "category": "Healthcare Administration & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/data-analytics-%26-insights-in-healthcare-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "DEI & Inclusive Leadership for HR Executives",
+      "slug": "dei-inclusive-leadership-for-hr-executives",
+      "category": "HR & People Management",
+      "sourceUrl": "https://www.elevoris.com/latest/dei-%26-inclusive-leadership-for-hr-executives",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Difficult Conversations & Conflict Communication Masterclass",
+      "slug": "difficult-conversations-conflict-communication-masterclass",
+      "category": "Communication & Presentation Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/difficult-conversations-%26-conflict-communication-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Diplomatic Protocol & International Etiquette Certificate",
+      "slug": "diplomatic-protocol-international-etiquette-certificate",
+      "category": "Diplomacy & Public Affairs",
+      "sourceUrl": "https://www.elevoris.com/latest/diplomatic-protocol-%26-international-etiquette-certificate",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Employee Relations & Labour Law Mastery for Energy & Public Sector",
+      "slug": "employee-relations-labour-law-mastery-for-energy-public-sector",
+      "category": "HR & People Management",
+      "sourceUrl": "https://www.elevoris.com/latest/employee-relations-%26-labour-law-mastery-for-energy-%26-public-sector",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Energy Sector Strategic Leadership Programme",
+      "slug": "energy-sector-strategic-leadership-programme",
+      "category": "Oil, Gas & Energy Management",
+      "sourceUrl": "https://www.elevoris.com/latest/energy-sector-strategic-leadership-programme",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Energy Transition & Sustainability Management Certificate",
+      "slug": "energy-transition-sustainability-management-certificate",
+      "category": "Oil, Gas & Energy Management",
+      "sourceUrl": "https://www.elevoris.com/latest/energy-transition-%26-sustainability-management-certificate",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Enterprise Risk Management Mastery",
+      "slug": "enterprise-risk-management-mastery",
+      "category": "Enterprise Risk, Credit & Banking Regulation",
+      "sourceUrl": "https://www.elevoris.com/latest/enterprise-risk-management-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "ESG & Sustainable Investment Mastery",
+      "slug": "esg-sustainable-investment-mastery",
+      "category": "Treasury, Investment & Asset Management",
+      "sourceUrl": "https://www.elevoris.com/latest/esg-%26-sustainable-investment-mastery",
+      "scheduleCount": 7,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Executive Assistant & Personal Assistant Mastery Certificate",
+      "slug": "executive-assistant-personal-assistant-mastery-certificate",
+      "category": "Office & Administrative Management",
+      "sourceUrl": "https://www.elevoris.com/latest/executive-assistant-%26-personal-assistant-mastery-certificate",
+      "scheduleCount": 3,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Executive HR Business Partner Mastery Programme",
+      "slug": "executive-hr-business-partner-mastery-programme",
+      "category": "HR & People Management",
+      "sourceUrl": "https://www.elevoris.com/latest/executive-hr-business-partner-mastery-programme",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Executive Leadership Accelerator",
+      "slug": "executive-leadership-accelerator",
+      "category": "Executive Leadership & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/executive-leadership-accelerator",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Executive Leadership in Banking Regulation",
+      "slug": "executive-leadership-in-banking-regulation",
+      "category": "Banking, Fintech & Digital Finance",
+      "sourceUrl": "https://www.elevoris.com/latest/executive-leadership-in-banking-regulation",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Finance & Budgeting Essentials for Administrative Professionals Masterclass",
+      "slug": "finance-budgeting-essentials-for-administrative-professionals-masterclass",
+      "category": "Office & Administrative Management",
+      "sourceUrl": "https://www.elevoris.com/latest/finance-%26-budgeting-essentials-for-administrative-professionals-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Financial Audit & Internal Controls Excellence",
+      "slug": "financial-audit-internal-controls-excellence",
+      "category": "Forensic Investigations, Audit & Anti-Financial Crime",
+      "sourceUrl": "https://www.elevoris.com/latest/financial-audit-%26-internal-controls-excellence",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Financial Modelling & Valuation Mastery",
+      "slug": "financial-modelling-valuation-mastery",
+      "category": "Strategic Finance & Budgeting",
+      "sourceUrl": "https://www.elevoris.com/latest/financial-modelling-%26-valuation-mastery",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Financial Risk Analytics & Modelling",
+      "slug": "financial-risk-analytics-modelling",
+      "category": "Enterprise Risk, Credit & Banking Regulation",
+      "sourceUrl": "https://www.elevoris.com/latest/financial-risk-analytics-%26-modelling",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Fintech Strategy & Digital Transformation Mastery",
+      "slug": "fintech-strategy-digital-transformation-mastery",
+      "category": "Banking, Fintech & Digital Finance",
+      "sourceUrl": "https://www.elevoris.com/latest/fintech-strategy-%26-digital-transformation-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Forensic Accounting & Fraud Investigation",
+      "slug": "forensic-accounting-fraud-investigation",
+      "category": "Forensic Investigations, Audit & Anti-Financial Crime",
+      "sourceUrl": "https://www.elevoris.com/latest/forensic-accounting-%26-fraud-investigation",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Government Relations & Stakeholder Engagement Masterclass",
+      "slug": "government-relations-stakeholder-engagement-masterclass",
+      "category": "Diplomacy & Public Affairs",
+      "sourceUrl": "https://www.elevoris.com/latest/government-relations-%26-stakeholder-engagement-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Hospital Operations, Administration & Management Programme",
+      "slug": "hospital-operations-administration-management-programme",
+      "category": "Healthcare Administration & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/hospital-operations%2C-administration-%26-management-programme",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Influencing, Persuasion & Negotiation Communication Masterclass",
+      "slug": "influencing-persuasion-negotiation-communication-masterclass",
+      "category": "Communication & Presentation Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/influencing%2C-persuasion-%26-negotiation-communication-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "International Relations & Foreign Policy Masterclass",
+      "slug": "international-relations-foreign-policy-masterclass",
+      "category": "Diplomacy & Public Affairs",
+      "sourceUrl": "https://www.elevoris.com/latest/international-relations-%26-foreign-policy-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "International Taxation & Transfer Pricing",
+      "slug": "international-taxation-transfer-pricing",
+      "category": "Tax, Pension & Retirement Management",
+      "sourceUrl": "https://www.elevoris.com/latest/international-taxation-%26-transfer-pricing",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Investment Portfolio Optimisation Strategy",
+      "slug": "investment-portfolio-optimisation-strategy",
+      "category": "Treasury, Investment & Asset Management",
+      "sourceUrl": "https://www.elevoris.com/latest/investment-portfolio-optimisation-strategy",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Joint Venture Governance & Risk Management",
+      "slug": "joint-venture-governance-risk-management",
+      "category": "Joint Ventures & Strategic Partnerships",
+      "sourceUrl": "https://www.elevoris.com/latest/joint-venture-governance-%26-risk-management",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Joint Venture Negotiation & Structuring Excellence",
+      "slug": "joint-venture-negotiation-structuring-excellence",
+      "category": "Joint Ventures & Strategic Partnerships",
+      "sourceUrl": "https://www.elevoris.com/latest/joint-venture-negotiation-%26-structuring-excellence",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Joint Venture Performance & Exit Mastery",
+      "slug": "joint-venture-performance-exit-mastery",
+      "category": "Joint Ventures & Strategic Partnerships",
+      "sourceUrl": "https://www.elevoris.com/latest/joint-venture-performance-%26-exit-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Lean Supply Chain & Process Improvement",
+      "slug": "lean-supply-chain-process-improvement",
+      "category": "Procurement, Contracts & Supply Chain Management",
+      "sourceUrl": "https://www.elevoris.com/latest/lean-supply-chain-%26-process-improvement",
+      "scheduleCount": 9,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "LNG Business & Commercial Strategy Masterclass",
+      "slug": "lng-business-commercial-strategy-masterclass",
+      "category": "Oil, Gas & Energy Management",
+      "sourceUrl": "https://www.elevoris.com/latest/lng-business-%26-commercial-strategy-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Machine & Manager: Leading in the Age of AI",
+      "slug": "machine-manager-leading-in-the-age-of-ai",
+      "category": "Executive Leadership & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/machine-%26-manager%3A-leading-in-the-age-of-ai",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Meeting Management, Minute-Taking & Event Coordination Masterclass",
+      "slug": "meeting-management-minute-taking-event-coordination-masterclass",
+      "category": "Office & Administrative Management",
+      "sourceUrl": "https://www.elevoris.com/latest/meeting-management%2C-minute-taking-%26-event-coordination-masterclass",
+      "scheduleCount": 7,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Mini MBA in Strategic Port and Shipping Management",
+      "slug": "mini-mba-in-strategic-port-and-shipping-management",
+      "category": "Ports, Maritime & Shipping Management",
+      "sourceUrl": "https://www.elevoris.com/latest/mini-mba-in-strategic-port-and-shipping-management",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Modern Port Operations Leadership & Shipping Excellence",
+      "slug": "modern-port-operations-leadership-shipping-excellence",
+      "category": "Ports, Maritime & Shipping Management",
+      "sourceUrl": "https://www.elevoris.com/latest/modern-port-operations-leadership-%26-shipping-excellence",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Office Management, Administration & Digital Transformation Masterclass",
+      "slug": "office-management-administration-digital-transformation-masterclass",
+      "category": "Office & Administrative Management",
+      "sourceUrl": "https://www.elevoris.com/latest/office-management%2C-administration-%26-digital-transformation-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Office Management & Administration Certificate",
+      "slug": "office-management-administration-certificate",
+      "category": "Office & Administrative Management",
+      "sourceUrl": "https://www.elevoris.com/latest/office-management-%26-administration-certificate",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Oil & Gas Business Management Certificate",
+      "slug": "oil-gas-business-management-certificate",
+      "category": "Oil, Gas & Energy Management",
+      "sourceUrl": "https://www.elevoris.com/latest/oil-%26-gas-business-management-certificate",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Oil & Gas Contracts & Commercial Negotiations Masterclass",
+      "slug": "oil-gas-contracts-commercial-negotiations-masterclass",
+      "category": "Oil, Gas & Energy Management",
+      "sourceUrl": "https://www.elevoris.com/latest/oil-%26-gas-contracts-%26-commercial-negotiations-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Operations Excellence & Process Improvement in Healthcare Masterclass",
+      "slug": "operations-excellence-process-improvement-in-healthcare-masterclass",
+      "category": "Healthcare Administration & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/operations-excellence-%26-process-improvement-in-healthcare-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Presentation Skills & Public Speaking Masterclass",
+      "slug": "presentation-skills-public-speaking-masterclass",
+      "category": "Communication & Presentation Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/presentation-skills-%26-public-speaking-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Project Finance & Infrastructure Funding Mastery",
+      "slug": "project-finance-infrastructure-funding-mastery",
+      "category": "Project Finance & Real Estate",
+      "sourceUrl": "https://www.elevoris.com/latest/project-finance-%26-infrastructure-funding-mastery",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Project Finance for Real Estate Development",
+      "slug": "project-finance-for-real-estate-development",
+      "category": "Project Finance & Real Estate",
+      "sourceUrl": "https://www.elevoris.com/latest/project-finance-for-real-estate-development",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Public Affairs Strategy & Government Engagement Programme",
+      "slug": "public-affairs-strategy-government-engagement-programme",
+      "category": "Diplomacy & Public Affairs",
+      "sourceUrl": "https://www.elevoris.com/latest/public-affairs-strategy-%26-government-engagement-programme",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Quality Management & Performance Improvement in Healthcare Certificate",
+      "slug": "quality-management-performance-improvement-in-healthcare-certificate",
+      "category": "Healthcare Administration & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/quality-management-%26-performance-improvement-in-healthcare-certificate",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Real Estate Risk & Valuation Mastery",
+      "slug": "real-estate-risk-valuation-mastery",
+      "category": "Project Finance & Real Estate",
+      "sourceUrl": "https://www.elevoris.com/latest/real-estate-risk-%26-valuation-mastery",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Regulatory Compliance for Financial Institutions",
+      "slug": "regulatory-compliance-for-financial-institutions",
+      "category": "Enterprise Risk, Credit & Banking Regulation",
+      "sourceUrl": "https://www.elevoris.com/latest/regulatory-compliance-for-financial-institutions",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Smart Stock & Inventory Management",
+      "slug": "smart-stock-inventory-management",
+      "category": "Procurement, Contracts & Supply Chain Management",
+      "sourceUrl": "https://www.elevoris.com/latest/smart-stock-%26-inventory-management",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Stakeholder Communication & Professional Presence Masterclass",
+      "slug": "stakeholder-communication-professional-presence-masterclass",
+      "category": "Office & Administrative Management",
+      "sourceUrl": "https://www.elevoris.com/latest/stakeholder-communication-%26-professional-presence-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Strategic Agile Leadership and Adaptive Management",
+      "slug": "strategic-agile-leadership-and-adaptive-management",
+      "category": "Executive Leadership & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-agile-leadership-and-adaptive-management",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Strategic Budget Management & Cost Control",
+      "slug": "strategic-budget-management-cost-control",
+      "category": "Strategic Finance & Budgeting",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-budget-management-%26-cost-control",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Strategic Fleet & Transport Management Masterclass",
+      "slug": "strategic-fleet-transport-management-masterclass",
+      "category": "Procurement, Contracts & Supply Chain Management",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-fleet-%26-transport-management-masterclass",
+      "scheduleCount": 9,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Strategic Joint Venture Management Mastery",
+      "slug": "strategic-joint-venture-management-mastery",
+      "category": "Joint Ventures & Strategic Partnerships",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-joint-venture-management-mastery",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Strategic Planning, Innovation & Execution in Healthcare Programme",
+      "slug": "strategic-planning-innovation-execution-in-healthcare-programme",
+      "category": "Healthcare Administration & Management",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-planning%2C-innovation-%26-execution-in-healthcare-programme",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Strategic Real Estate Development Funding",
+      "slug": "strategic-real-estate-development-funding",
+      "category": "Project Finance & Real Estate",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-real-estate-development-funding",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Strategic Risk Management for Banks",
+      "slug": "strategic-risk-management-for-banks",
+      "category": "Banking, Fintech & Digital Finance",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-risk-management-for-banks",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Strategic Storytelling & Business Narrative Masterclass",
+      "slug": "strategic-storytelling-business-narrative-masterclass",
+      "category": "Communication & Presentation Excellence",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-storytelling-%26-business-narrative-masterclass",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Strategic Tax Planning & Optimisation Mastery",
+      "slug": "strategic-tax-planning-optimisation-mastery",
+      "category": "Tax, Pension & Retirement Management",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-tax-planning-%26-optimisation-mastery",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Strategic Treasury Management & Cash Optimisation",
+      "slug": "strategic-treasury-management-cash-optimisation",
+      "category": "Treasury, Investment & Asset Management",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-treasury-management-%26-cash-optimisation",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Strategic Warehouse Management Certification Course",
+      "slug": "strategic-warehouse-management-certification-course",
+      "category": "Procurement, Contracts & Supply Chain Management",
+      "sourceUrl": "https://www.elevoris.com/latest/strategic-warehouse-management-certification-course",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Supplier Relationship & Performance Management",
+      "slug": "supplier-relationship-performance-management",
+      "category": "Procurement, Contracts & Supply Chain Management",
+      "sourceUrl": "https://www.elevoris.com/latest/supplier-relationship-%26-performance-management",
+      "scheduleCount": 10,
+      "status": "successfully-migrated"
+    },
+    {
+      "title": "Sustainable Port Management and Green Shipping Strategies",
+      "slug": "sustainable-port-management-and-green-shipping-strategies",
+      "category": "Ports, Maritime & Shipping Management",
+      "sourceUrl": "https://www.elevoris.com/latest/sustainable-port-management-and-green-shipping-strategies",
+      "scheduleCount": 7,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Tax Compliance & Risk Management Excellence",
+      "slug": "tax-compliance-risk-management-excellence",
+      "category": "Tax, Pension & Retirement Management",
+      "sourceUrl": "https://www.elevoris.com/latest/tax-compliance-%26-risk-management-excellence",
+      "scheduleCount": 10,
+      "status": "partially-migrated"
+    },
+    {
+      "title": "Treasury Risk Management & Hedging Mastery",
+      "slug": "treasury-risk-management-hedging-mastery",
+      "category": "Treasury, Investment & Asset Management",
+      "sourceUrl": "https://www.elevoris.com/latest/treasury-risk-management-%26-hedging-mastery",
+      "scheduleCount": 3,
+      "status": "partially-migrated"
+    }
+  ],
+  "unavailable": [
+    {
+      "url": "https://www.elevoris.com/latest/advanced-complex-project-leadership-program",
+      "title": "Advanced Complex Project Leadership Program",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/advanced-financial-budgeting-%26-forecasting-mastery",
+      "title": "Advanced Financial Budgeting & Forecasting Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/advanced-indirect-tax-%26-vat-management",
+      "title": "Advanced Indirect Tax & VAT Management",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/advanced-investment-strategy-%26-portfolio-management",
+      "title": "Advanced Investment Strategy & Portfolio Management",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/advanced-isps-code-compliance-%26-maritime-security-mastery",
+      "title": "Advanced ISPS Code Compliance & Maritime Security Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/advanced-oil-%26-gas-port-operations-and-shipping-management",
+      "title": "Advanced Oil & Gas Port Operations and Shipping Management",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/advanced-oil-and-chemical-tanker-cargo-operations-%26-safety-mastery",
+      "title": "Advanced Oil and Chemical Tanker Cargo Operations & Safety Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/advanced-project-finance-structuring",
+      "title": "Advanced Project Finance Structuring",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/advanced-treasury-%26-cash-management-mastery",
+      "title": "Advanced Treasury & Cash Management Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/budgeting%2C-cost-control-%26-reduction-techniques",
+      "title": "Budgeting, Cost Control & Reduction Techniques",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/corporate-financial-planning-%26-analysis-mastery",
+      "title": "Corporate Financial Planning & Analysis Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/corporate-tax-governance-%26-revenue-assurance-strategy",
+      "title": "Corporate Tax Governance & Revenue Assurance Strategy",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/dei-%26-inclusive-leadership-for-hr-executives",
+      "title": "DEI & Inclusive Leadership for HR Executives",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/esg-%26-sustainable-investment-mastery",
+      "title": "ESG & Sustainable Investment Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/financial-modelling-%26-valuation-mastery",
+      "title": "Financial Modelling & Valuation Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/international-taxation-%26-transfer-pricing",
+      "title": "International Taxation & Transfer Pricing",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/investment-portfolio-optimisation-strategy",
+      "title": "Investment Portfolio Optimisation Strategy",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/mini-mba-in-strategic-port-and-shipping-management",
+      "title": "Mini MBA in Strategic Port and Shipping Management",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/modern-port-operations-leadership-%26-shipping-excellence",
+      "title": "Modern Port Operations Leadership & Shipping Excellence",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/project-finance-%26-infrastructure-funding-mastery",
+      "title": "Project Finance & Infrastructure Funding Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/project-finance-for-real-estate-development",
+      "title": "Project Finance for Real Estate Development",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/real-estate-risk-%26-valuation-mastery",
+      "title": "Real Estate Risk & Valuation Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/strategic-budget-management-%26-cost-control",
+      "title": "Strategic Budget Management & Cost Control",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/strategic-real-estate-development-funding",
+      "title": "Strategic Real Estate Development Funding",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/strategic-tax-planning-%26-optimisation-mastery",
+      "title": "Strategic Tax Planning & Optimisation Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/strategic-treasury-management-%26-cash-optimisation",
+      "title": "Strategic Treasury Management & Cash Optimisation",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/sustainable-port-management-and-green-shipping-strategies",
+      "title": "Sustainable Port Management and Green Shipping Strategies",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/tax-compliance-%26-risk-management-excellence",
+      "title": "Tax Compliance & Risk Management Excellence",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    },
+    {
+      "url": "https://www.elevoris.com/latest/treasury-risk-management-%26-hedging-mastery",
+      "title": "Treasury Risk Management & Hedging Mastery",
+      "reason": "The original course URL is linked and schedule data is available, but its full-content record is unavailable from the original Wix source."
+    }
+  ]
+}
